@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Laboratorio 15</title>
+
+  <style>
+    :root{
+      --bg:#fff5f8;
+      --card:#ffffff;
+      --accent:#d6336c;
+      --border:#f3b6cc;
+      --muted:#6b4a56;
+    }
+    body{
+      background:var(--bg);
+      color:var(--muted);
+      font-family:Arial, Helvetica, sans-serif;
+      margin:20px;
+      line-height:1.45;
+    }
+    h1{ color:var(--accent); margin-bottom:12px;}
+    section{
+      background:var(--card);
+      border:1px solid var(--border);
+      padding:12px 14px;
+      margin-bottom:12px;
+      border-radius:8px;
+    }
+    h2{ color:var(--accent); margin:0 0 8px 0; font-size:16px;}
+    p, li { margin:6px 0; }
+    ul{ padding-left:20px; }
+    img{ max-width:240px; border-radius:6px; border:1px solid var(--border); }
+    .bloque{ padding:8px; border-radius:6px; border:1px solid var(--border); margin-bottom:6px; }
+    .resaltado{ background:#fff0f4; }
+
+
+    .resultado{ font-weight:600; color:#2d2430; margin-top:8px;}
+  </style>
+</head>
+<body>
+
+  <h1>LABORATORIO 15</h1>
+
+  <!-- EJERCICIO 3 -->
+  <section id="ej3">
+    <h2>Ejercicio 3</h2>
+    <h2 id="h2-principal">TITULO PRINCIPAL DEL DOCUMENTO</h2>
+  </section>
+
+  <!-- EJERCICIO 4 -->
+  <section id="ej4">
+    <h2>Ejercicio 4</h2>
+    <p class="ej4">Parrafo A</p>
+    <p class="ej4">Parrafo B</p>
+    <p class="ej4">Parrafo C</p>
+  </section>
+
+  <!-- EJERCICIO 5 -->
+<section id="ej5">
+  <h2>Ejercicio 5</h2>
+  <img id="imagen-primera" 
+       src="https://raw.githubusercontent.com/bvelasquezp-BrigitteKarolay/Laboratorio15-IDWEB/main/img/img%20(1).jpg" 
+       alt="imagen original">
+</section>
+
+
+  <!-- EJERCICIO 6 -->
+  <section id="ej6">
+    <h2>Ejercicio 6</h2>
+    <ul id="lista-ej6">
+      <li class="oculto">Elemento oculto A</li>
+      <li>Elemento B</li>
+      <li class="oculto">Elemento oculto C</li>
+      <li>Elemento D</li>
+    </ul>
+  </section>
+
+  <!-- EJERCICIO 7 -->
+  <section id="ej7">
+    <h2>Ejercicio 7</h2>
+    <ul id="lista-ej7">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </section>
+
+  <!-- EJERCICIO 8 -->
+  <section id="ej8">
+    <h2>Ejercicio 8</h2>
+    <div class="bloque">Div 1</div>
+    <div class="bloque">Div 2</div>
+    <div class="bloque">Div 3</div>
+    <div class="bloque">Div 4</div>
+  </section>
+
+  <!-- EJERCICIO 9 -->
+  <section id="ej9">
+    <h2>Ejercicio 9</h2>
+    <p class="nota">(Se insertará dinámicamente con JS)</p>
+  </section>
+
+  <!-- EJERCICIO 10 -->
+  <section id="ej10">
+    <h2>Ejercicio 10</h2>
+    <p id="primer-p-ej10">Primer parrafo del documento para referencia.</p>
+  </section>
+
+  <!-- EJERCICIO 11 -->
+  <section id="ej11">
+    <h2>Ejercicio 11</h2>
+  </section>
+
+  <!-- EJERCICIO 12 -->
+  <section id="ej12">
+    <h2>Ejercicio 12</h2>
+    <p id="p-a-reemplazar">Parrafo que sera reemplazado por un div</p>
+  </section>
+
+  <!-- EJERCICIO 13 -->
+  <section id="ej13">
+    <h2>Ejercicio 13</h2>
+    <p>Parrafo A</p>
+    <p>Parrafo B</p>
+    <p id="ultimo-eliminar">Parrafo ultimo a eliminar</p>
+  </section>
+
+  <!-- EJERCICIO 14 -->
+  <section id="ej14">
+    <h2>Ejercicio 14</h2>
+    <div id="contenido">
+      <p>Contenido 1</p>
+      <p>Contenido 2</p>
+      <p>Contenido 3</p>
+    </div>
+  </section>
+
+  <!-- EJERCICIO 15 -->
+  <section id="ej15">
+    <h2>Ejercicio 15</h2>
+    <main id="main-ej15">
+      <article id="article-original">
+        <h3>Articulo original</h3>
+        <p>Texto del articulo original.</p>
+      </article>
+    </main>
+  </section>
+
+  <!-- EJERCICIO 16 -->
+  <section id="ej16">
+    <h2>Ejercicio 16</h2>
+    <ul id="lista-ej16">
+      <li>Uno</li>
+      <li>Dos</li>
+      <li>Tres</li>
+      <li>Cuatro</li>
+    </ul>
+  </section>
+
+  <!-- EJERCICIO 17 -->
+  <section id="ej17">
+    <h2>Ejercicio 17</h2>
+    <div id="contenedor-reordenar">
+      <p>manzana</p>
+      <p>pera</p>
+      <p>banana</p>
+      <p>uva</p>
+    </div>
+  </section>
+
+  <!-- EJERCICIO 18 -->
+  <section id="ej18">
+    <h2>Ejercicio 18</h2>
+  </section>
+
+  <!-- EJERCICIO 19 -->
+  <section id="ej19">
+    <h2>Ejercicio 19</h2>
+  
+    <div class="contador">X</div>
+    <div class="contador">Y</div>
+    <div class="contador">Z</div>
+  </section>
+
+  <!-- EJERCICIO 20 -->
+  <section id="ej20">
+    <h2>Ejercicio 20</h2>
+  </section>
+
+  <!-- EJERCICIO 21 -->
+  <section id="ej21">
+    <h2>Ejercicio 21</h2>
+    <div id="contenedor21"></div>
+  </section>
+
+  <!-- EJERCICIO 22 -->
+  <section id="ej22">
+    <h2 id="h2-original-seccion">H2 ORIGINAL DE ESTA SECCION</h2>
+    <p>Parrafo dentro de la seccion 22</p>
+  </section>
+
+
+  <script src="LAB15.js"></script>
+</body>
+</html>
